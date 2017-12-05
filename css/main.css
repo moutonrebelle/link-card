@@ -4,7 +4,7 @@ html {
   box-sizing: border-box;
   text-align: left;
   color: #785439;
-  background-color: #dcd4cd;
+  background-color: #f0eee8;
   margin: 0 0 1rem;
   font-size: 1rem;
   padding: 1rem;
@@ -27,7 +27,7 @@ body {
   border-color: #9a816d;
   border-radius: 8px;
   padding: 1rem;
-  background-color: #cabdb2;
+  background-color: #dcd4cd;
 }
 
 a {
