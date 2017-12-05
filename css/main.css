@@ -1,0 +1,29 @@
+html {
+line-height: 1.5;
+font-family: Georgia, serif;
+box-sizing: border-box;
+text-align: center;
+color: #512200;
+background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+}
+
+.link-card {
+  padding: .4em .75em .5em;
+}
+
+dt {
+  float: left;
+  clear: left;
+}
+
+dd {
+  margin: 0;
+}
