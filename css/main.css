@@ -17,6 +17,7 @@ html {
 h2 {
   font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 a {
@@ -68,4 +69,5 @@ dd {
 span {
   font-family: "Dosis", sans-serif;
   font-size: 1.125rem;
+  font-weight: bold;
 }
