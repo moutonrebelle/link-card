@@ -1,10 +1,12 @@
 html {
-line-height: 1.5;
-font-family: Georgia, serif;
-box-sizing: border-box;
-text-align: center;
-color: #512200;
-background-color: #f0eee8;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+  color: #512200;
+  background-color: #f0eee8;
+  margin: 0 0 1rem;
 }
 
 *, *::before, *::after {
@@ -15,8 +17,12 @@ h2 {
   font-family: "Dosis", sans-serif;
 }
 
-.link-card {
-  padding: .4em .75em .5em;
+a .btn {
+  text-decoration: none;
+}
+
+.link-card:hover {
+  background-color: #9a816d;
 }
 
 dt {
