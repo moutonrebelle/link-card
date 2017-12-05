@@ -3,9 +3,11 @@ html {
   font-family: Georgia, serif;
   box-sizing: border-box;
   text-align: left;
-  color: #512200;
-  background-color: #f0eee8;
+  color: #785439;
+  background-color: #dcd4cd;
   margin: 0 0 1rem;
+  font-size: 1rem;
+  padding: 1rem;
 }
 
 *, *::before, *::after {
@@ -14,14 +16,32 @@ html {
 
 h2 {
   font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
 }
 
-a .btn {
+a {
   text-decoration: none;
+  color: #512200;
+}
+
+a:hover {
+  background-color: #cabdb2;
+}
+
+.link-card {
+  background-color: #785439;
 }
 
 .link-card:hover {
-  background-color: #9a816d;
+  background-color: #512200
+
+}
+
+dl {
+  border-top-width: 2px;
+  border-bottom-width: : 2px;
+  border-color: #785439;
+  font-size: .875rem;
 }
 
 dt {
@@ -31,6 +51,7 @@ dt {
 
 dd {
   margin: 0;
+  font-style: italic;
 }
 
 .btn {
@@ -39,7 +60,12 @@ dd {
   border-width: 2px;
   border-radius: 8px;
   background:color; #785439;
-  color: #dcd4cd;
+  color: #f0eee8;
   border-style: solid;
   border-color: #785439;
+}
+
+span {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
 }
