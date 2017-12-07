@@ -15,7 +15,7 @@ html {
 }
 
 h2 {
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -46,6 +46,7 @@ dl {
   border-right: 0;
   border-color: #785439;
   font-size: .875rem;
+  padding: 1rem;
 }
 
 dd {
@@ -62,7 +63,7 @@ dt {
 
 .btn {
   display: inline-block;
-  padding:.4em .75em .5em;
+  padding: .4em .75em .5em;
   border-width: 2px;
   border-radius: 8px;
   background-color: #785439;
@@ -77,7 +78,7 @@ dt {
 }
 
 span {
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
